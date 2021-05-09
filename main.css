@@ -1,6 +1,21 @@
+/*main styles start*/
 *{
     background-color: black;
     color: blanchedalmond;
     margin: 0;
     box-sizing: border-box;
 }
+/*main styles end*/
+/*body styles start*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display:block;
+    margin: 500px,1000px;
+    background-color: white;
+    font-size: 20px;
+    color: cornsilk;
+}
+/*body styles end*/
+
