@@ -1,30 +1,56 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html class="with_footer">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Specter Store Manager</title>
+  <title>Specter store manager</title>
+  <meta name='description' content='Specter Store Manager is a simple, effective store management tool that helps store owners manage sales and product inventory records.'/>
+  <link rel="stylesheet" href="main.css">
+  <meta name='keywords' content='#'/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Specter Store Manager</h1>
-    </header>
-    <main>
-        <div">
-            <form action="#">
-                <label for="username">
-                    <input type="text" name="login" id="username" placeholder="Username"required>Username
-                </label>
-                <label for="password">
-                    <input type="text" name="login" id="password" placeholder="password"required>Password
-                </label>
-                <label for="submit">
-                    <button type="submit">submit</button>
-                </label>
-            </form>
+  <div class="nav-bar">
+    <div class="webname">
+      <div class="logo">
+        <span><img src="images/Login form/log.PNG" alt=""></span>
+      </div>
+    </div>
+    <div class="signup">
+      <span>DON'T HAVE AN ACCOUNT?</span> <a href="#" >SIGN UP</a>
+    </div>
+  </div>
+    <div class="modal">
+      <div class="modal-header">
+        <!-- <h4> Sign In</h4>     -->
+      <h5>Sign in to continue to Specter Store Management.</h5>
+      </div>
+      <form class="form_content" action="#" method="post">
+        <div class="imgcontainer">
+          <img src="images/Login form/img_avatar2.png" alt="Avatar" class="avatar">
         </div>
-    </main>
+    
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+            
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>  
+    </div>
+    <footer class="foot">
+      © Copyright 2021&nbsp;<img src="images/Login form/s.png" alt=""> Inc.&nbsp;
+    </footer>
 </body>
 </html>
