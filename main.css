@@ -9,11 +9,16 @@ html{
     background:#F3F4F4;
     color: black;
     font-family: ars-maquette-web, Arial;
+    background: rgb(21, 32, 54);
+}
+body {
+    background: rgb(21, 32, 54);
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*main styles end*/
 /* header styles start  */
 .nav-bar{
-    background: #fefefe;
+    background: rgb(27, 42, 71);
     padding: 8px ;
     height: 42px;
 }
@@ -39,9 +44,7 @@ html{
 }
 /* header styles end */
 /*body styles start*/
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 /* form styles start */
 .form_content{
     background-color: #fefefe;
@@ -50,13 +53,15 @@ body {
     width: 60%; /* Could be more or less, depending on screen size */
 }
  .modal{
-    background: white;
+    background-color : rgb(27, 42, 71);
     border-radius: 3px;
     border: 1px solid #DDD;
     text-align: center;
     padding: 0 30px;
     margin: 0 auto 0 auto;
     height: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 .modal-header{
     padding: 5px 0;
