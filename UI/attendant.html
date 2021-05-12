@@ -7,15 +7,25 @@
     <meta name= "description" content="A page where the store attendant can excute their day to day activities ">
     <meta name="keywords" content="#"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Store-Manager-Frontend/UI/css/attendant.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e752ee79b0.js" crossorigin="anonymous"></script>
     <title>Store attendant page</title>
 </head>
 <body>
-    <header>
+    <header class="nav-header">
         <div class="store-name">
-            <img src="/Store-Manager-Frontend/images/logo.PNG" alt="">
+            <h1>Specter Store Mananger</h1>
+            <!-- <img src="/Store-Manager-Frontend/images/logo.PNG" alt=""> -->
         </div>
         <div class="search-bar">
-            <input type="text" placeholder="Search..">
+            <form action="#">
+                <input type="text" placeholder="Search..">
+                <button type="submit" class="search-icon"><i class="fa fa-search" ></i></button>
+           
+            </form>
         </div>
         <div class="profile">
             <span>message icon</span>
@@ -28,69 +38,96 @@
         </div>
     </header>
     <main>
-    <section>
-    <div class="profile-icon">
-        <img src="The image" alt="">
-    </div>
-    <div class="dashboard-icon">
-        <img src="house icon" alt="">
-        <h2>Dashboard</h2>
-        <p>Welcome Store attendant</p>
-    </div>
-    <div class="download-icon">
-        <img src="download icon" alt="">
-    </div>
-    </section>
-    <section>
-        <div class="products">
-            <div class="box-product">
-                <img src="" alt="">
-                <h3>Product name</h3>
-                <p>Price tag</p>
-                <p>Remaining in stock</p>
-            </div>
-            <div class="box-product">
-                <img src="" alt="">
-                <h3>Product name</h3>
-                <p>Price tag</p>
-                <p>Remaining in stock</p>
-            </div>            <div class="box-product">
-                <img src="" alt="">
-                <h3>Product name</h3>
-                <p>Price tag</p>
-                <p>Remaining in stock</p>
-            </div>            <div class="box-product">
-                <img src="" alt="">
-                <h3>Product name</h3>
-                <p>Price tag</p>
-                <p>Remaining in stock</p>
-            </div>            <div class="box-product">
-                <img src="" alt="">
-                <h3>Product name</h3>
-                <p>Price tag</p>
-                <p>Remaining in stock</p>
-            </div>            <div class="box-product">
-                <img src="" alt="">
-                <h3>Product name</h3>
-                <p>Price tag</p>
-                <p>Remaining in stock</p>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="shopping-cart">
-            <h2>attendant can add products to shopping-cart</h2>
-        </div>
-        <div class="sales">
-            <h2>Create sales record</h2>
-        </div>
-        <div class="sales-record">
-            <h2>View sales record of attendant</h2>
-        </div>
-    </section>  
+      <div class="space"></div>
+      <section class="beneath-header">
+      <div class="profile-icon">
+          <img src="images/dog.png" alt="dog image">
+          <h4>First & last name</h4>
+      </div>
+      <div class="dashboard-icon">
+         <a href="#"> <i class="fas fa-house-user"></i></a>
+          <div>
+            <h2>Dashboard</h2>
+            <p>Welcome Store attendant</p>
+          </div>
+      </div>
+      <div class="download-icon">
+        <a href="#"><i class="far fa-save"></i></a>
+        <h3>download report</h3>
+      </div>
+      </section>
+      <div class="space"></div>
+
+      </section>
+      <section id="products">
+          <div class="products">
+              <div class="card">
+                  <img src="images/products/pexels-elvis-2528118.jpg" alt="">
+                  <div class="container">
+                    <h3>Product name</h3>
+                    <p>Price tag</p>
+                    <p>Remaining in stock</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="images/products/pexels-gabriel-freytez-341523.jpg" alt="">
+                  <div class="container">
+                    <h3>Product name</h3>
+                    <p>Price tag</p>
+                    <p>Remaining in stock</p>
+                  </div>
+              </div>           
+              <div class="card">
+                <img src="images/products/pexels-lisa-4067774.jpg" alt="">
+                <div class="container">
+                  <h3>Product name</h3>
+                  <p>Price tag</p>
+                  <p>Remaining in stock</p>
+                </div>
+              </div>       
+              <div class="card">
+                  <img src="images/products/pexels-luis-quintero-2148216.jpg" alt="">
+                  <div class="container">
+                    <h3>Product name</h3>
+                    <p>Price tag</p>
+                    <p>Remaining in stock</p>
+                  </div>
+              </div>    
+              <div class="card">
+                  <img src="images/products/pexels-pixabay-265125.jpg" alt="">
+                  <div class="container">
+                    <h3>Product name</h3>
+                    <p>Price tag</p>
+                    <p>Remaining in stock</p>
+                  </div>
+              </div>        
+              <div class="card">
+                  <img src="images/products/pexels-sharad-kachhi-3937174.jpg" alt="">
+                  <div class="container">
+                    <h3>Product name</h3>
+                    <p>Price tag</p>
+                    <p>Remaining in stock</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id=" perfomance">
+          <div class="shopping-cart box">
+              <h2>attendant can add products to shopping-cart</h2>
+          </div>
+          <div class="sales box">
+              <h2>Create sales record</h2>
+          </div>
+          <div class="sales-record box">
+              <h2>View sales record of attendant</h2>
+          </div>
+      </section>  
     </main>
     <footer>
-        <h3>Copyright &copy; <img src="/Store-Manager-Frontend/images/copyright.png" alt="">All rights reserved</h3>
+      <div class="foot">
+        <h3>Copyright &copy;<span> <img src="/Store-Manager-Frontend/images/copyright.png" alt=""></span>All rights reserved</h3>
+      </div>
     </footer>
 </body>
 </html>

@@ -9,16 +9,16 @@ html{
     background:#F3F4F4;
     color: black;
     font-family: ars-maquette-web, Arial;
-    background: rgb(21, 32, 54);
+    /* background: rgb(21, 32, 54); */
 }
 body {
-    background: rgb(21, 32, 54);
+    /* background: rgb(21, 32, 54); */
     font-family: Arial, Helvetica, sans-serif;
 }
 /*main styles end*/
 /* header styles start  */
 .nav-bar{
-    background: rgb(27, 42, 71);
+    background: #fff;
     padding: 8px ;
     height: 42px;
 }
@@ -53,7 +53,7 @@ body {
     width: 60%; /* Could be more or less, depending on screen size */
 }
  .modal{
-    background-color : rgb(27, 42, 71);
+    background-color : rgb(240, 236, 228);
     border-radius: 3px;
     border: 1px solid #DDD;
     text-align: center;
@@ -99,7 +99,7 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
-button {
+.login{
     background-color: #04AA6D;
     color: white;
     padding: 10px 20px;
@@ -115,6 +115,11 @@ button:hover {
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
 } 
 /* forms styels end */
 /*body styles end*/
@@ -127,3 +132,5 @@ button:hover {
     padding-top:3px ;
 }
 /*footer styles end*/
+
+  
