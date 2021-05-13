@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
 }
-a{
+/* a{
     color: rgb(80, 58, 18);
-}
+} */
 body{
     background: #152036;
     color: wheat;
@@ -19,18 +19,20 @@ body{
     color: wheat;
     background-color:#152036;
     width: 100%;
+    height: 20%;
 }
 .store-name{
     float: left;
-    padding: 10px 10% 10px 10px;
-    margin-left:0 10px;
+    /* padding: 10px 10% 10px 10px; */
+    /* margin-left:0 10px; */
     font-family: lobster;
     width: 33%;
 }
+
 .search-bar{
     float: left;
+    width: 30%;
     margin: 8px 40px;
-    padding: 20px;
     border: 1px solid #152036;
 }
 .search-bar input[type="text"]{
@@ -46,15 +48,38 @@ body{
     float: left;
 
    }
-.search-icon{
+/* .search-icon{
     float: right;
-}
+} */
 .beneath-header{
     margin-bottom: 20px;
 }
 .profile{
-    margin-right: 30px;
+    margin-left: 40px;
+
 }
+.profile ul {
+    list-style-type: none;
+    margin: 20px 50px 20px 100px;
+    /* margin: 0;
+    padding: 0; */
+}
+.profile li{
+    display: inline;
+    padding: 15px;
+    font-size: 25px;
+    
+}
+.profile a{
+    color: wheat;
+}
+.profile a:hover{
+    color: thistle;
+    box-shadow: 10px 10px 20px 0 rgba(60, 21, 21, 0.9);
+
+
+}
+
 .space{
     height: 20px;
     background-color:  rgb(16, 34, 68);
@@ -104,11 +129,12 @@ body{
     float: left;
 }
 #performance{
-    float: left;
+    float: right;
+    /* height: 100%; */
 }
 .card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
     transition: 0.3s;
     float: left;
     margin: 20px;
@@ -116,7 +142,7 @@ body{
   
   /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
 }
   
   /* Add some padding inside the card container */
@@ -134,4 +160,64 @@ body{
     border-radius: 5px 5px 0 0;
     width: 250px;
     height: 250px;
+}
+main{
+    margin-bottom:30px ;
+}
+#perfomance{
+    width: 30%;
+    /* height: 75%; */
+}
+.shopping-cart i{
+    font-size: 40px;
+    padding: 100px 20px 10px 100px  ;
+}
+.shopping-cart{
+    margin-bottom: 220px;
+} 
+.sales input[type="text"], input[type="date"]{
+    width: 300px;
+    margin: 0 0 10px 0;
+    color: wheat;
+    background: rgb(10, 30, 75);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+.sales button{
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    background: blue;
+    color: aliceblue;
+}
+.sales button:hover{
+    background: black;
+    color: wheat;
+    padding: 5px;
+}
+.sale{
+    border: 1px solid #19F;
+    float: right;
+    margin-right: 90px;
+}
+.form-box h3{
+    margin: 10px;
+}
+.form-box{
+    margin-bottom: 30px;
+}
+.sales-record a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: bisque;
+}
+.foot{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.foot img{
+    height: 20px;
+    padding-top:3px ;
 }
