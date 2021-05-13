@@ -28,13 +28,14 @@
             </form>
         </div>
         <div class="profile">
-            <span>message icon</span>
-            <span>notification icon(bell)</span>
-             <div class="profile-tag"> <!--This should be a drop down menu -->
-                <p>(person icon)My profile</p>
-                <p>(settings icon) Settings</p>
-                <p>(paddlock icon) Log out</p>
-            </div>
+          <ul>
+           <li><a href="#"><span><i class="fas fa-envelope"></i></span></a></li>
+           <li><a href="#"><span><i class="fas fa-bell"></i></span></a></li>
+           <li><a href="#"><i class="fas fa-user"></i></span> My profile</a></li>
+           <!-- <li><a href="#"><span><i class="fas fa-cogs"></i></span> Settings</a></li>
+           <li><a href="#"><span><i class="fas fa-sign-out-alt"></i></span> Log out</a></li>     -->
+         </ul>
+        
         </div>
     </header>
     <main>
@@ -113,19 +114,34 @@
       </section>
 
       <section id=" perfomance">
-          <div class="shopping-cart box">
-              <h2>attendant can add products to shopping-cart</h2>
+          <div class="shopping-cart ">
+            <a href="#"><i class="fas fa-cart-plus"></i></a>
+            <h3>Click a product to add it to the cart</h3>
           </div>
-          <div class="sales box">
-              <h2>Create sales record</h2>
+          <div class=" form-box">
+            <h3>Sales record</h3>
+            <form action="#" class="sales">
+              <label for="product">
+                <input type="text" name="product" id="product" placeholder="Enter your monthly sales.." required>
+              </label>
+              <br>
+              <label for="month">
+                <input type="date" name="month" id="sales" placeholder="Which month..." required>
+              </label>
+              <br>
+              <button type="submit">Generate sales report</button>
+            </form>
           </div>
           <div class="sales-record box">
-              <h2>View sales record of attendant</h2>
+            <a href="#">View sales record</a>
+            <iframe src="form" frameborder="100px 100px"></iframe>
           </div>
       </section>  
     </main>
+    <div class="space"></div>
+
     <footer>
-      <div class="foot">
+      <div class="foot space">
         <h3>Copyright &copy;<span> <img src="/Store-Manager-Frontend/images/copyright.png" alt=""></span>All rights reserved</h3>
       </div>
     </footer>
