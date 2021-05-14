@@ -1,0 +1,12 @@
+/*Global styles*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* a{
+    color: rgb(80, 58, 18);
+} */
+body{
+    background: #152036;
+    color: wheat;
+}
