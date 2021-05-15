@@ -54,7 +54,7 @@ body{
     color: wheat;
 }
 .profile a:hover{
-    color: #152036;
+    color: thistle;
 }
 .line{
     width: 100%;
@@ -114,15 +114,16 @@ body{
     color: wheat;
 }
 .profile a:hover{
-    background-color: thistle;
+    background-color: #152036;
     box-shadow: 10px 10px 20px 0 rgba(60, 21, 21, 0.9);
+    color: teal;
 }
 .profile-icon{
     width: 15%;
     float: left;
 }
 .profile-icon h4{
-    margin: 5px 0px 0px 30px;
+    margin-left: 70px;
 }
 .profile-icon img{
     border-radius: 50%; 
@@ -136,6 +137,7 @@ body{
     float: left;
     width: 67%;
     margin-top: 5px;
+    color: wheat;
 }
 .dashboard-icon i{
    float: left;
@@ -147,6 +149,7 @@ body{
    border-top: 1px solid wheat;
    display: block;
    border-left: 1px solid wheat;
+   color: thistle;
 
 }
 .dashboard-icon > div{
@@ -156,6 +159,7 @@ body{
     font-size: 50px;
     margin-left: 45px;
     margin-top: 20px;
+    color: wheat;
 }
 .card {
     /* Add shadows to create the "card" effect */
