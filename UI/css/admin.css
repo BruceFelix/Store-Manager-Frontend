@@ -5,13 +5,12 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(16, 34, 68);
-    color: wheat;
+    background:#F3F4F4;
+    color: black;
 }
 /*header styles*/
 .nav-header{
     top: 0;
-    color: wheat;
     width: 100%;
     margin-bottom: 2px;
     box-sizing: border-box;
@@ -25,13 +24,13 @@ body{
     float: left;
     width: 33%;
     margin: 8px 40px;
-    background-color: rgb(16, 34, 68);
-    border: 1px solid rgb(16, 34, 68);
+    background:#F3F4F4;
+    border: none;
 }
 .search-bar input[type="text"]{
     height : 10px;
     padding: 10px;
-    background-color : #152036;
+    background-color : #F3F4F4;
     border: none;
     border-radius : 20px;
     box-shadow : none;
@@ -50,26 +49,22 @@ body{
     margin-top: 100px;
     
 }
-.profile a{
-    color: wheat;
-}
 .profile a:hover{
     color: #152036;
 }
 .line{
     width: 100%;
     padding: 1px;
-    background-color :wheat;
 }
 .space{
     height: 20px;
-    background-color:  #152036;
+    background:#F3F4F4;
     padding: 10x;
     width: 100%;
 }
 .vertical-space{
     height: 700px;
-    background-color:  #152036;
+    background:#F3F4F4;
     padding: 10px 10px;
     margin-left: 160px;
     width: 20px;
@@ -83,14 +78,13 @@ body{
     z-index: 1;
     overflow: hidden;
     float: left;
-    background-color: rgb(16, 34, 68);
+    background:#F3F4F4;
 }
 .sidenav a{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     display: block;
-    color: wheat;
 }
 .sidenav a:hover{
     background-color:  #152036;
