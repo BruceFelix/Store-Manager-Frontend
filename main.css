@@ -15,6 +15,14 @@ body {
     /* background: rgb(21, 32, 54); */
     font-family: Arial, Helvetica, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bolder;
+}
+a:hover{
+    color: darkred;
+}
 /*main styles end*/
 /* header styles start  */
 .nav-bar{
@@ -136,4 +144,5 @@ button:hover {
 }
 /*footer styles end*/
 
-  
+/*sign up forms*/
+
