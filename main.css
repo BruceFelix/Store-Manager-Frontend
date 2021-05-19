@@ -9,15 +9,12 @@ html{
     background:#F3F4F4;
     color: black;
     font-family: ars-maquette-web, Arial;
-    /* background: rgb(21, 32, 54); */
 }
 body {
-    /* background: rgb(21, 32, 54); */
     font-family: Arial, Helvetica, sans-serif;
 }
 a{
     text-decoration: none;
-    color: darkblue;
     font-weight: bolder;
 }
 a:hover{
@@ -143,6 +140,4 @@ button:hover {
     padding-top:3px ;
 }
 /*footer styles end*/
-
-/*sign up forms*/
 
