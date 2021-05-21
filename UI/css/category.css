@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#F3F4F4;
+    color: black;
+    min-height: 100%;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #ddd;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    width: 40%;
+}
+.logout{
+    float: right;
+    margin: 30px;
+}
+.logout a{
+    color: #152036;
+}
+.logout button{
+    width: 80px;
+    border: none;
+    color: #152036;
+    border-radius: 5px;
+}
+.logout button:hover{
+    background: #eff;
+
+}
+.logout a:hover{
+    color: black;
+}
+.heading{
+    margin-top: 70px;
+    text-align: center;
+}
+.heading h1{
+    color: #152036;
+}
+.cat-product{
+    width: 90%;
+    margin: auto;
+    min-height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+}
+label, input{
+    margin: 10px ;
+}
+label{
+    margin-right: 100px;
+    font-size: larger;
+    color: #152036;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.one{
+    background-color: #ddd;
+}
+.one label{
+    color: #152036;
+}
+#Type{
+    width: 80%;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+}
+.two{
+    background-color: #ddd;
+}
+.two label{
+    margin-right: 90px;
+    color: #152036;
+}
+#brand{
+    width: 80%;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;  
+    margin-right: 20px;  
+}
+.three{
+    background-color: #ddd;
+}
+.three label{
+    color: #152036;
+    margin-right: 40px;
+}
+#size{
+    width: 80%;
+    padding: 5px;  
+    border: none;
+    padding: 5px;  
+}
+.four{
+    background-color: #ddd;
+}
+.four label{
+    color: #152036;
+}
+#ram{
+    width: 80%;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;  
+    margin-right: 20px; 
+}
+.five{
+    background-color: #ddd;
+}
+#capacity{
+    width: 80%;   
+    border-radius: 3px;
+    border: none;
+    padding: 5px;  
+    margin-right: 20px; 
+}
+.five label{
+    color: #152036;
+    margin-right: 0;
+} 
+.six{
+    background-color: #ddd;
+}
+.six label{
+    margin-right: 28px;
+    color: #152036;
+}
+#stype{
+    width: 80%;   
+    border-radius: 3px;
+    border: none;
+    padding: 5px;  
+    margin-right: 20px; 
+}
+.seven{
+    background-color: #ddd;
+}
+.seven label{
+    color: #152036;
+    margin-right: 58px;
+}
+#processor{
+    width: 80%;   
+    border-radius: 3px;
+    border: none;
+    padding: 5px;  
+    margin-right: 20px; 
+}
+.nane{
+    background-color: #ddd;
+}
+.nane label{
+    margin-right: 58px;
+    color: #152036;
+}
+#condition{
+    width: 80%;   
+    border-radius: 3px;
+    border: none;
+    padding: 5px;  
+    margin-right: 20px;
+}
+.nine{
+    background-color: #ddd;
+}
+.nine label{
+    color: #152036;
+    margin-right: 0;
+}
+#system{
+    width: 80%;   
+    border-radius: 3px;
+    border: none;
+    padding: 5px;  
+    margin-right: 20px;
+}
+.ten{
+    background-color: #ddd;
+}
+.ten label{
+    color: #152036;
+}
+#favcolor{
+    border-radius: 3px;
+    border: none;
+    margin-right: 20px;
+
+}
+.eleven{
+    background-color: #ddd;
+    text-align: center;
+}
+#sub{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    background-color: rgb(49, 145, 54);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+}
+#res{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    background-color: rgb(196, 11, 51);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+
+}
