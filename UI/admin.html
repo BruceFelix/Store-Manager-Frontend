@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Store-Manager-Frontend/UI/css/admin.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e752ee79b0.js" crossorigin="anonymous"></script>
     <title>Admin page</title>
 </head>
@@ -19,10 +19,13 @@
         <div class="store-name">
             <img src="/Store-Manager-Frontend/images/logo.PNG" alt="">
         </div>
-        <div class="nav-bar">
-          <h1>Admin</h1>
+        <div class="logout">
+          <button type="button"><a href="/Store-Manager-Frontend/index.html">Logout</a></button>
         </div>
     </header>
+    <div class="admin">
+      <h1>Administrator</h1>
+    </div>
       <div class="dashboard">
         <div class="top">
           <div class="create card">
@@ -32,13 +35,16 @@
           </div>
           <div class="card products">
             <div class="container">
-              <a href="products.html"><h1>Products</h1></a>
+              <a href="products.html"><h1>Edit Product</h1></a>
             </div>
           </div> 
         </div>
         <div class="bottom">
           <div class=" sales card ">
-            <h1>Sales</h1>
+            <a href="sales.html"><h1>Sales</h1></a>
+          </div>
+          <div class=" category card ">
+            <a href="sales.html"><h1>Categorize Product</h1></a>
           </div>
         </div>
       </div>       

@@ -19,10 +19,33 @@ a{
 header{
     width: 100%;
     height: 70px;
-    background-color:  #152036;
     position: fixed;
     top: 0;
     z-index: 1;
+    background-color: #152036;
+}
+.logout{
+    float: right;
+    margin: 30px;
+}
+.logout button{
+    width: 80px;
+    border: none;
+}
+.logout button:hover{
+    background: rgb(9, 49, 106);
+    color: white;
+
+}
+.logout a:hover{
+    color: white;
+}
+.admin {
+    color: #152036;
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .store-name{
     float: left;
@@ -40,9 +63,12 @@ header{
 .dashboard{
     box-sizing: border-box;
     width: 90%;
-    margin: 100px 0 0 100px;
+    margin: 50px 0 0 100px;
     text-align: center;
     height: 430px;
+}
+.dashboard h1{
+    margin-top: 30px;
 }
 .top{
     height: 100px;
@@ -61,7 +87,13 @@ header{
 .sales{
     width: 40%;
     height: 85px;
+    float: left;
   
+}
+.category{
+    float: left;
+    width: 40%;
+    height: 85px;
 }
 .card {
     /* Add shadows to create the "card" effect */
@@ -70,6 +102,11 @@ header{
     margin: 20px;
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
+    font-family: 'Goblin One', cursive;
+}
+.card a{ 
+    color: #152036;
+    font-size: 10px;
 }
   /* On mouse-over, add a deeper shadow */
 .card:hover {
