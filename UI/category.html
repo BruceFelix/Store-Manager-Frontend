@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Store-Manager-Frontend/UI/css/category.css">
+    <title>Categorize product page</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/Store-Manager-Frontend/UI/admin.html"><img src="/Store-Manager-Frontend/images/logo.PNG" alt=""></a>
+        </div>
+        <div class="logout">
+            <button type="button"><a href="/Store-Manager-Frontend/index.html">Logout</a></button>
+        </div>
+    </header> -->
+    <div class="heading">
+        <h1>Categorize a Computer</h1>
+    </div>
+    <div class="cat-product">
+        <form action="#">        
+            <div class="one">
+                <label for="Type">Type</label>
+                <input list="types" name="Type" id="Type">
+                    <datalist id="types">
+                            <option value="Desktop">
+                            <option value="Laptop">
+                            <option value="Server">
+                    </datalist><br>
+            </div>
+            <div class="two">
+                <label for="brand">Brand</label>
+                <input list="brands" name="brand" id="brand">
+                    <datalist id="brands">
+                            <option value="HP">
+                            <option value="Dell">
+                            <option value="Lenovo">
+                            <option value="Apple">
+                            <option value="Fujitsu">
+                            <option value="Advent">
+                            <option value="Acer">
+                            <option value="Asus">
+                            <option value="Chuwi">
+                            <option value="Digital storm">
+                            <option value="ALienware">
+                    </datalist><br>
+            </div>
+            <div class="three">
+                <label for="size">Display size</label>
+                <input list="sizes" name="size" id="size">
+                    <datalist id="sizes">
+                            <option value="10.1">
+                            <option value="11/11.6">
+                            <option value="12/12.3">
+                            <option value="13/13.3">
+                            <option value="14">
+                            <option value="15/15.6">
+                            <option value="17/17.3">
+                            <option value="19">
+                            <option value="20.1">
+                            <option value="21">
+                            <option value="more than 21">
+                    </datalist><br>
+            </div>
+            <div class="four">
+                <label for="ram">Ram</label>
+                <input list="rams" name="ram" id="ram">
+                    <datalist id="rams">
+                            <option value="1GB">
+                            <option value="1.5GB">
+                            <option value="2GB">
+                            <option value="3GB">
+                            <option value="4GB">
+                            <option value="6GB">
+                            <option value="8GB">
+                            <option value="12GB">
+                            <option value="16GB">
+                            <option value="24GB">
+                            <option value="32GB">
+                    </datalist><br>
+            </div>
+            <div class="five">
+                <label for="capacity">Storage Capacity</label>
+                <input list="capacities" name="capacity" id="capacity">
+                    <datalist id="capacities">
+                            <option value="16gb">
+                            <option value="32gb">
+                            <option value="40GB">
+                            <option value="48GB">
+                            <option value="60GB">
+                            <option value="72GB">
+                            <option value="128GB">
+                            <option value="140GB">
+                            <option value="160GB">
+                            <option value="256GB">
+                            <option value="250GB">
+                            <option value="320gb">
+                            <option value="500GB">
+                            <option value="640GB">
+                            <option value="700GB">
+                            <option value="750GB">
+                            <option value="1TB">
+                            <option value="1.5TB">
+                            <option value="2TB">
+                    </datalist><br>
+            </div>
+            <div class="six">
+                <label for="stype">Storage Type</label>
+                <input list="stypes" name="stype" id="stype">
+                    <datalist id="stypes">
+                        <option value="HDD">
+                        <option value="SSD">
+                        <option value="SSHD(Hybrid)">
+                    </datalist><br>
+            </div>
+            <div class="seven">
+                <label for="processor">Processor</label>
+                <input list="processors" name="processor" id="processor">
+                    <datalist id="processors">
+                            <option value="Intel Core i5">
+                            <option value="Intel Core 2 Duo">
+                            <option value="Intel Core i3">
+                            <option value="Intel Core i7">
+                            <option value="Intel">
+                            <option value="Intel Core i9">
+                            <option value="Intel Core M">
+                            <option value="Intel Core 2 Quad">
+                            <option value="Intel Celeron">
+                            <option value="Intel Pentium">
+                            <option value="Intel Atom">
+                            <option value="Intel Xeon">
+                            <option value="AMD">
+                            <option value="AMD Ryzen">
+                            <option value="AMD A10">
+                            <option value="AMD A6">
+                            <option value="AMD A8">
+                            <option value="AMD A4">
+                        <option value="Nvidia">
+                    </datalist><br>
+            </div>
+            <div class="nane">
+                <label for="condition">Condition</label>
+                <input list="conditions" name="condition" id="condition">
+                    <datalist id="conditions">
+                            <option value="BrandNew">
+                            <option value="Used">
+                            <option value="Refurbished">
+                    </datalist><br>
+            </div>
+            <div class="nine">
+                <label for="system">Operating System</label>
+                <input list="systems" name="system" id="system">
+                    <datalist id="systems">
+                            <option value="DOS">
+                            <option value="Free DOS">
+                            <option value="Linux">
+                            <option value="Mac OS">
+                            <option value="Ubuntu">
+                    </datalist><br>
+            </div>
+            <div class="ten">
+                <label for="favcolor">Select color</label>
+                <input type="color" id="favcolor" name="favcolor"><br>
+            </div>
+            <div class="eleven">
+                <input type="button" id="sub" onclick="alert('Categorized!')" value="Submit!">
+                <input type="reset" id="res">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
