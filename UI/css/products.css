@@ -5,16 +5,13 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(16, 34, 68);
-    color: wheat;
+    background: white;
+    color: #152036;
 }
 /*header styles*/
 .nav-header{
-    top: 0;
-    color: wheat;
     width: 100%;
     margin-bottom: 2px;
-    box-sizing: border-box;
 }
 .store-name{
     float: left;
@@ -25,141 +22,34 @@ body{
     float: left;
     width: 33%;
     margin: 8px 40px;
-    background-color: rgb(16, 34, 68);
-    border: 1px solid rgb(16, 34, 68);
 }
 .search-bar input[type="text"]{
     height : 10px;
     padding: 10px;
-    background-color : #152036;
+    color: #152036;
+    background-color : #f3f3f3;
     border: none;
     border-radius : 20px;
     box-shadow : none;
-    outline-color : rgb(89, 238, 89) ;
-    outline-width: 1px;
     cursor: pointer;
     float: left;
 }
-.profile ul {
-    margin-top: 15px;
-}
-.profile li{
-    display: inline;
-    padding: 15px;
-    font-size: 25px;
-    margin-top: 100px;
-    
-}
-.profile a{
-    color: wheat;
-}
-.profile a:hover{
-    color: thistle;
-}
-.line{
-    width: 100%;
-    padding: 1px;
-    background-color :wheat;
-}
-.space{
-    height: 20px;
-    background-color:  #152036;
-    padding: 10x;
-    width: 100%;
-}
-.vertical-space{
-    height: 700px;
-    background-color:  #152036;
-    padding: 10px 10px;
-    margin-left: 160px;
-    width: 20px;
-    margin-top: 0 ;
-    position: absolute;
-}
+
 /* Body styles*/
 .sidenav{
     margin-top: 20px;
     width: 160px;
-    z-index: 1;
-    overflow: hidden;
     float: left;
-    background-color: rgb(16, 34, 68);
+    margin-left: 160px;
 }
 .sidenav a{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     display: block;
-    color: wheat;
 }
 .sidenav a:hover{
-    background-color:  #152036;
-}
-.before-nav{
-    margin-bottom: 20px;
-}
-.profile{
-    margin-left: 40px;
-}
-.profile ul {
-    list-style-type: none;
-    margin: 20px 50px 20px 100px;
-}
-.profile li{
-    display: inline;
-    padding: 15px;
-    font-size: 25px;
-}
-.profile a{
-    color: wheat;
-}
-.profile a:hover{
-    background-color: #152036;
-    box-shadow: 10px 10px 20px 0 rgba(60, 21, 21, 0.9);
-    color: teal;
-}
-.profile-icon{
-    width: 15%;
-    float: left;
-}
-.profile-icon h4{
-    margin-left: 70px;
-}
-.profile-icon img{
-    border-radius: 50%; 
-    border: 2 solid  rgb(21, 32, 54) ;
-    box-sizing : border-box;
-    height : 75px;
-    width : 75px;
-    margin: 10px 50px 0 50px;
-}
-.dashboard-icon{
-    float: left;
-    width: 67%;
-    margin-top: 5px;
-    color: wheat;
-}
-.dashboard-icon i{
-   float: left;
-   margin: 20px;
-   font-size: 20px;
-   padding: 15px;
-   border-radius: 5px;
-   border-bottom: 1px solid wheat;
-   border-top: 1px solid wheat;
-   display: block;
-   border-left: 1px solid wheat;
-   color: thistle;
-
-}
-.dashboard-icon > div{
-    margin-top: 20px;
-}
-.download-icon i{
-    font-size: 50px;
-    margin-left: 45px;
-    margin-top: 20px;
-    color: wheat;
+    background-color:  #f3df3d;
 }
 .card {
     /* Add shadows to create the "card" effect */
@@ -190,7 +80,6 @@ body{
 .products{
     margin-left: 250px;
     margin-bottom: 700px;
-    position: relative;
 }
 /*footer styles*/
 .foot{
