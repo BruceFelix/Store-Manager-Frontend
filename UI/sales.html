@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/UI/css/sales.css">
+    <link rel="stylesheet" href="css/sales.css">
     <title>General Sales</title>
 </head>
 <body>
     <header>
-        <div class="store-name">
+        <div class="logo">
             <a href="/Store-Manager-Frontend/UI/admin.html"><img src="/Store-Manager-Frontend/images/logo.PNG" alt=""></a>
         </div>
         <div class="logout">
-          <button type="button"><a href="/Store-Manager-Frontend/UI/admin.html">Dashboard</a></button>
+          <button type="button"><a href="/Store-Manager-Frontend/index.html">Logout</a></button>
         </div>
     </header>
+    <div class="heading">
+        <h1>Sales record</h1>
+    </div>
+    
+    <input type="text" id="myInput" placeholder="Search for Attendant's names..">
     <table>
         <tr>
             <th>Product</th>
@@ -38,17 +43,8 @@
             <td>160GB</td>
             <td>8GB</td>
             <td>KSH64000</td>
-            <td><input type="date"></td>
-            <td>
-                <input list="names">
-                <datalist id="names">
-                    <option value="Bruce Wayne">
-                    <option value="Elon Musk">
-                    <option value="Jeff Bezzos">
-                    <option value="Alfred Kanyotu">
-                    <option value="Uhuru Kenyatta">
-                </datalist>
-            </td>
+            <td>10/2/2021</td>
+            <td>Bruce Wayne</td>
         </tr>
         <tr>
             <td>Lenovo</td>
@@ -59,18 +55,10 @@
             <td>500GB</td>
             <td>16GB</td>
             <td>KSH72000</td>
-            <td><input type="date"></td>
-            <td>
-                <input list="names">
-                <datalist id="names">
-                    <option value="Bruce Wayne">
-                    <option value="Elon Musk">
-                    <option value="Jeff Bezzos">
-                    <option value="Alfred Kanyotu">
-                    <option value="Uhuru Kenyatta">
-                </datalist>
-            </td>
-        </tr>        <tr>
+            <td>10/2/2021</td>
+            <td>Jeff Bezzos </td>
+        </tr>     
+        <tr>
             <td>HP</td>
             <td>3</td>
             <td>Laptop</td>
@@ -79,18 +67,10 @@
             <td>2TB</td>
             <td>32GB</td>
             <td>KSH600000</td>
-            <td><input type="date"></td>
-            <td>
-                <input list="names">
-                <datalist id="names">
-                    <option value="Bruce Wayne">
-                    <option value="Elon Musk">
-                    <option value="Jeff Bezzos">
-                    <option value="Alfred Kanyotu">
-                    <option value="Uhuru Kenyatta">
-                </datalist>
-            </td>
-        </tr>        <tr>
+            <td>10/2/2021</td>
+            <td>Elon Musk </td>
+        </tr>
+            <tr>
             <td>Dell</td>
             <td>4</td>
             <td>Desktop</td>
@@ -99,18 +79,10 @@
             <td>320GB</td>
             <td>4GB</td>
             <td>KSH25000</td>
-            <td><input type="date"></td>
-            <td>
-                <input list="names">
-                <datalist id="names">
-                    <option value="Bruce Wayne">
-                    <option value="Elon Musk">
-                    <option value="Jeff Bezzos">
-                    <option value="Alfred Kanyotu">
-                    <option value="Uhuru Kenyatta">
-                </datalist>
-            </td>
-        </tr>        <tr>
+            <td>10/2/2021</td>
+            <td>Elon Musk </td>
+        </tr>
+        <tr>
             <td>HP</td>
             <td>5</td>
             <td>Laptop</td>
@@ -119,18 +91,10 @@
             <td>500GB</td>
             <td>12GB</td>
             <td>KSH240000</td>
-            <td><input type="date"></td>
-            <td>
-                <input list="names">
-                <datalist id="names">
-                    <option value="Bruce Wayne">
-                    <option value="Elon Musk">
-                    <option value="Jeff Bezzos">
-                    <option value="Alfred Kanyotu">
-                    <option value="Uhuru Kenyatta">
-                </datalist>
-            </td>
-        </tr>        <tr>
+            <td>10/2/2021</td>
+            <td>Tom Cook</td>
+        </tr>  
+        <tr>
             <td>Dell</td>
             <td>6</td>
             <td>Desktop</td>
@@ -139,18 +103,10 @@
             <td>160GB</td>
             <td>2GB</td>
             <td>KSH20000</td>
-            <td><input type="date"></td>
-            <td>
-                <input list="names">
-                <datalist id="names">
-                    <option value="Bruce Wayne">
-                    <option value="Elon Musk">
-                    <option value="Jeff Bezzos">
-                    <option value="Alfred Kanyotu">
-                    <option value="Uhuru Kenyatta">
-                </datalist>
-            </td>
-        </tr>        <tr>
+            <td>10/2/2021</td>
+            <td>Jeff Bezzos</td>
+        </tr> 
+        <tr>
             <td>HP</td>
             <td>7</td>
             <td>Server</td>
@@ -159,17 +115,8 @@
             <td>4SSD</td>
             <td>32GB</td>
             <td>KSH420000</td>
-            <td><input type="date"></td>
-            <td>
-                <input list="names">
-                <datalist id="names">
-                    <option value="Bruce Wayne">
-                    <option value="Elon Musk">
-                    <option value="Jeff Bezzos">
-                    <option value="Alfred Kanyotu">
-                    <option value="Uhuru Kenyatta">
-                </datalist>
-            </td>
+            <td>10/2/2021</td>
+            <td>Jack Ma</td>
         </tr>        <tr>
             <td>Asus</td>
             <td>8</td>
@@ -179,18 +126,10 @@
             <td>320GB</td>
             <td>8GB</td>
             <td>KSH64000</td>
-            <td><input type="date"></td>
-            <td>
-                <input list="names">
-                <datalist id="names">
-                    <option value="Bruce Wayne">
-                    <option value="Elon Musk">
-                    <option value="Jeff Bezzos">
-                    <option value="Alfred Kanyotu">
-                    <option value="Uhuru Kenyatta">
-                </datalist>
-            </td>
-        </tr>        <tr>
+            <td>10/2/2021</td>
+            <td>Bill Gates </td>
+        </tr>  
+        <tr>
             <td>Apple</td>
             <td>9</td>
             <td>Desktop</td>
@@ -199,18 +138,10 @@
             <td>500GB</td>
             <td>12GB</td>
             <td>KSH200000</td>
-            <td><input type="date"></td>
-            <td>
-                <input list="names">
-                <datalist id="names">
-                    <option value="Bruce Wayne">
-                    <option value="Elon Musk">
-                    <option value="Jeff Bezzos">
-                    <option value="Alfred Kanyotu">
-                    <option value="Uhuru Kenyatta">
-                </datalist>
-            </td>
-        </tr>        <tr>
+            <td>10/2/2021</td>
+            <td>Zack Zuckerburg</td>
+        </tr> 
+        <tr>
             <td>Acer</td>
             <td>10</td>
             <td>Laptop</td>
@@ -219,17 +150,8 @@
             <td>750GB</td>
             <td>8GB</td>
             <td>KSH250000</td>
-            <td><input type="date"></td>
-            <td>
-                <input list="names">
-                <datalist id="names">
-                    <option value="Bruce Wayne">
-                    <option value="Elon Musk">
-                    <option value="Jeff Bezzos">
-                    <option value="Alfred Kanyotu">
-                    <option value="Uhuru Kenyatta">
-                </datalist>
-            </td>
+            <td>10/2/2021</td>
+            <td>Jk Rowling</td>
         </tr>
     </table>
 </body>
