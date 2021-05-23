@@ -30,10 +30,11 @@ a{
     border: none;
     color: #152036;
     border-radius: 5px;
+    padding: 6px;
 }
 .logout button:hover{
     background: #eff;
-
+    border: #152036  1px solid;
 }
 .logout a:hover{
     color: black;
@@ -46,9 +47,6 @@ a{
     color: #152036;
 }
 #myInput {
-    background-image: url("/"); /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 90%; /* Full-width */
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
