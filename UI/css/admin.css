@@ -5,8 +5,6 @@ Global styles
     box-sizing: border-box;
 }
 body{
-    margin: 0;
-    padding: 0;
     background:#F3F4F4;
     color: black;
     min-height: 100%;
@@ -40,12 +38,11 @@ header{
 .logout button:hover{
     background: rgb(193, 196, 196);
     box-shadow: 0 4px 8px 0 rgb(253, 253, 253);
-
-
 }
 .logout a:hover{
     color: #152036;
 }
+/*Main style*/
 .admin {
     color: #152036;
     margin-top: 100px;
@@ -53,61 +50,60 @@ header{
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.store-name{
+.logo{
     float: left;
     width: 40%;
 }
-.nav-bar{
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-.nav-bar h1{
-    color: white;
-    text-align: center;
-}
 /* Body styles*/
 .dashboard{
-    box-sizing: border-box;
     width: 90%;
-    margin: 50px 0 0 100px;
+    margin: 0 0 0 100px;
     text-align: center;
-    height: 430px;
+    height: 350px;
 }
 .dashboard h1{
     margin-top: 30px;
-}
-.top{
-    height: 100px;
+    text-align: center;
 }
 .create{
     width: 40%;
     float: left;
     height: 85px;
+    margin-bottom: 20px;
 }
-
-.products{
+.edit{
     width: 40%;
-    float: left;
     height: 85px;
+    float: left;
+    margin-bottom: 20px;
 }
 .sales{
     width: 40%;
     height: 85px;
     float: left;
-  
+    margin-bottom: 20px;
+}
+.profile{
+    width: 60%;
+    height: 85px;
+    float: left;  
+    display: inline;
 }
 .category{
     float: left;
     width: 40%;
     height: 85px;
+    margin-bottom: 20px;
+}
+.bottom{
+    margin-left: 250px;
 }
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
     transition: 0.3s;
     margin: 20px;
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
+    border-radius: 10px; /* 5px rounded corners */
     font-family: 'Goblin One', cursive;
 }
 .card a{ 
@@ -119,18 +115,11 @@ header{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
 }
   /* Add some padding inside the card container */
-.container {
-    padding: 2px 16px;
-}
-.container {
-    padding: 2px 16px;
-}
 /*footer styles*/
 .foot{
     width: 100%;
     text-align: center;
     padding: 10px;
-    bottom: 0;
 }
 .foot img{
     height: 14px;
