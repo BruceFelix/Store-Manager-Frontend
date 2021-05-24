@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/sales.css">
-    <title>General Sales</title>
+    <link rel="stylesheet" href="css/myprofile.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e752ee79b0.js" crossorigin="anonymous"></script>
+    <title>Attendant's Personal profile</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="/Store-Manager-Frontend/UI/admin.html"><img src="/Store-Manager-Frontend/images/logo.PNG" alt=""></a>
+            <img src="/Store-Manager-Frontend/images/logo.PNG" alt="">
         </div>
-        <div class="logout">
-          <button type="button"><a href="/Store-Manager-Frontend/index.html">Logout</a></button>
+        <div class="search-bar">
+            <form action="#">
+                <input type="text" placeholder="Search..">
+                <button type="submit" class="search-icon"><i class="fa fa-search" ></i></button>
+            </form>
         </div>
+        <div class="shopping-cart ">
+            <ul>
+              <li><a href="attendant.html">Home</a></li>
+              <li><a href="/Store-Manager-Frontend/index.html">Logout</a></li>
+            </ul>
+          </div>
     </header>
     <div class="heading">
-        <h1>Sales record</h1>
+        <h1>Attendant's sales record</h1>
     </div>
     
     <input type="text" id="myInput" placeholder="Search for Attendant's names..">
@@ -32,7 +45,6 @@
             <th>Ram</th>
             <th>Price</th>
             <th>Date</th>
-            <th>Attendant</th>
         </tr>
         <tr>
             <td>Dell</td>
@@ -44,7 +56,6 @@
             <td>8GB</td>
             <td>KSH64000</td>
             <td>10/2/2021</td>
-            <td>Bruce Wayne</td>
         </tr>
         <tr>
             <td>Lenovo</td>
@@ -55,7 +66,6 @@
             <td>500GB</td>
             <td>16GB</td>
             <td>KSH72000</td>
-            <td>10/2/2021</td>
             <td>Jeff Bezzos </td>
         </tr>     
         <tr>
@@ -68,7 +78,6 @@
             <td>32GB</td>
             <td>KSH600000</td>
             <td>10/2/2021</td>
-            <td>Elon Musk </td>
         </tr>
             <tr>
             <td>Dell</td>
@@ -80,7 +89,6 @@
             <td>4GB</td>
             <td>KSH25000</td>
             <td>10/2/2021</td>
-            <td>Elon Musk </td>
         </tr>
         <tr>
             <td>HP</td>
@@ -92,7 +100,6 @@
             <td>12GB</td>
             <td>KSH240000</td>
             <td>10/2/2021</td>
-            <td>Tom Cook</td>
         </tr>  
         <tr>
             <td>Dell</td>
@@ -104,7 +111,6 @@
             <td>2GB</td>
             <td>KSH20000</td>
             <td>10/2/2021</td>
-            <td>Jeff Bezzos</td>
         </tr> 
         <tr>
             <td>HP</td>
@@ -116,7 +122,6 @@
             <td>32GB</td>
             <td>KSH420000</td>
             <td>10/2/2021</td>
-            <td>Jack Ma</td>
         </tr>        <tr>
             <td>Asus</td>
             <td>8</td>
@@ -127,7 +132,6 @@
             <td>8GB</td>
             <td>KSH64000</td>
             <td>10/2/2021</td>
-            <td>Bill Gates </td>
         </tr>  
         <tr>
             <td>Apple</td>
@@ -139,7 +143,6 @@
             <td>12GB</td>
             <td>KSH200000</td>
             <td>10/2/2021</td>
-            <td>Zack Zuckerburg</td>
         </tr> 
         <tr>
             <td>Acer</td>
@@ -151,7 +154,6 @@
             <td>8GB</td>
             <td>KSH250000</td>
             <td>10/2/2021</td>
-            <td>Jk Rowling</td>
         </tr>
     </table>
     <footer>

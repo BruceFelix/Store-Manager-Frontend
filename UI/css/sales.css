@@ -74,3 +74,12 @@ th{
     background-color: #152036;
     color: white;
 }
+footer{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.foot img{
+    height: 20px;
+    padding-top:3px ;
+}
