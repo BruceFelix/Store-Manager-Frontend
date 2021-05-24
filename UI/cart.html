@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Bruce Felix Macharia">
-    <meta name= "description" content="A page where the store attendant can excute their day to day activities ">
-    <meta name="keywords" content="#"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Store-Manager-Frontend/UI/css/attendant.css">
+    <link rel="stylesheet" href="css/cart.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/e752ee79b0.js" crossorigin="anonymous"></script>
-    <title>Store attendant page</title>
+    <title>Cart</title>
 </head>
 <body>
     <header>
@@ -27,15 +24,12 @@
         </div>
         <div class="shopping-cart ">
           <ul>
-            <li><a href="cart.html"><i class="fas fa-cart-plus"></i></a></li>
-            <li class="nav"><a href="myprofile.html">Profile</a></li>
-            <li class="nav"><a href="/Store-Manager-Frontend/index.html">Logout</a></li>
+            <li><a href="attendant.html">HOME</a></li>
+            <li><a href="/Store-Manager-Frontend/index.html">Logout</a></li>
           </ul>
         </div>
     </header>
-    <hr>
-    <main>
-      <div class="products">
+    <div class="products">
         <div class="card">
           <img src="images/Laptops/dell.webp" alt="">
           <div class="container">
@@ -65,42 +59,24 @@
             <p>18hrs battery life</p>
             <p>Ksh 100000</p>
           </div>
-        </div>       
+        </div> 
         <div class="card">
-          <img src="images/Laptops/lenovo.webp" alt="">
-          <div class="container">
-            <h3>Thinkpad X1 Carbon</h3>
-            <p>Windows 10 Pro 64</p>
-            <p>11th Gen Intel core i7</p>
-            <p>16GB memory 500GB storage </p>
-            <p>Ksh 100000</p>
-          </div>
-        </div>    
-        <div class="card">
-          <img src="images/products/spectre.png" alt="">
-          <div class="container">
-            <h3>HP Specter</h3>
-            <p>Windows 10 Pro 64</p>
-            <p>11th Gen Intel core i7</p>
-            <p>32GB memory 2TB storage </p>
-            <p>Ksh 160000</p>
-          </div>
-        </div>        
-        <div class="card">
-          <img src="images/products/omen.png" alt="">
-          <div class="container">
-            <h3>HP OmenX</h3>
-            <p>Windows 10 Pro 64</p>
-            <p>11th Gen Intel core i7</p>
-            <p>16GB memory 1TB storage </p>
-            <p>Ksh 120000</p>
-          </div>
-        </div>
-      </div>
-    <footer>
-      <div class="foot space">
-        <h3>Copyright &copy;<span> <img src="/Store-Manager-Frontend/images/copyright.png" alt=""></span>All rights reserved</h3>
-      </div>
-    </footer>
+            <img src="images/Laptops/lenovo.webp" alt="">
+            <div class="container">
+              <h3>Thinkpad X1 Carbon</h3>
+              <p>Windows 10 Pro 64</p>
+              <p>11th Gen Intel core i7</p>
+              <p>16GB memory 500GB storage </p>
+              <p>Ksh 100000</p>
+            </div>
+          </div> 
+    </div>    
+    <div class="sale">
+        <button type="submit">Checkout</button>
+        <button type="submit">Create Sales </button>
+        <form action="#">
+            
+        </form>
+    </div>  
 </body>
 </html>
