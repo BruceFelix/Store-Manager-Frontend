@@ -57,7 +57,7 @@ li{
     border-radius: 10px;
 }
 li:hover{
-    background-color: rgb(215, 223, 223);
+    background-color: #bdb6b6;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
 }
 hr{
@@ -101,7 +101,55 @@ hr{
     height: 200px;
 }
 .sale{
-    float: left;
+    float: right;
     margin-top: 100px;
-    margin-left: 200px;
+    width: 48%;
+    background-color: white;
+    height: 800px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+th{
+    background-color: white;
+    color: #152036;
+}
+.buttons{
+    width: 100%;
+    margin: 30px;
+    text-align: center;
+}
+.buttons button{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+.buttons button:hover{
+    background-color: #152036;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    transition: 0.3s;
+}
+/*footer styles*/
+.foot{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.foot img{
+    height: 20px;
+    padding-top:3px ;
 }
