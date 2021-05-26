@@ -1,0 +1,122 @@
+/*Global styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #eee;
+    color: #152036;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #152036;
+}
+/*header styles*/
+header{
+    color: #152036;
+    width: 100%;
+    height: 75px;
+    margin-bottom: 20px;
+    position: fixed;
+    z-index: 1;
+    background-color: #152036;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.search-bar{
+    float: left;
+    width: 30%;    
+    margin: 40px 0px 0 150px;
+}
+.search-bar input[type="text"]{
+    height : 10px;
+    padding: 10px;
+    background-color : #fff;
+    border: none;
+    border-radius : 20px;
+    box-shadow : none;
+    outline-width: 1px;
+    cursor: pointer;
+    float: left;
+}
+.shopping-cart i{
+    font-size: 40px;
+    margin: 20px 0px 5px 50px;
+    color: white;
+}
+.shopping-cart{
+    float: left;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+}
+.nav{
+    margin: 10px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+}
+.nav:hover{
+    background-color: rgb(215, 223, 223);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+}
+hr{
+    background-color: #fff;
+    color: white;
+}
+/*main styles*/
+.products{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    height: 800px;
+    text-align: justify;
+    margin-top: 100px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    transition: 0.3s;
+    float: left;
+    margin: 30px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    height: 300px;
+}
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+  
+  /* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+.card img {
+    border-radius: 5px 5px 0 0;
+    width: 250px;
+    height: 200px;
+}
+.foot{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.foot img{
+    height: 20px;
+    padding-top:3px ;
+}

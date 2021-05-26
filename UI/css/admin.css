@@ -1,0 +1,127 @@
+Global styles
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#F3F4F4;
+    color: black;
+    min-height: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*header styles*/
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #152036;
+}
+.logout{
+    float: right;
+    margin: 30px;
+}
+.logout a{
+    color: #152036;
+}
+.logout button{
+    width: 80px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.logout button:hover{
+    background: rgb(193, 196, 196);
+    box-shadow: 0 4px 8px 0 rgb(253, 253, 253);
+}
+.logout a:hover{
+    color: #152036;
+}
+/*Main style*/
+.admin {
+    color: #152036;
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    float: left;
+    width: 40%;
+}
+/* Body styles*/
+.dashboard{
+    width: 90%;
+    margin: 0 0 0 100px;
+    text-align: center;
+    height: 350px;
+}
+.dashboard h1{
+    margin-top: 30px;
+    text-align: center;
+}
+.create{
+    width: 40%;
+    float: left;
+    height: 85px;
+    margin-bottom: 20px;
+}
+.edit{
+    width: 40%;
+    height: 85px;
+    float: left;
+    margin-bottom: 20px;
+}
+.sales{
+    width: 40%;
+    height: 85px;
+    float: left;
+    margin-bottom: 20px;
+}
+.profile{
+    width: 60%;
+    height: 85px;
+    float: left;  
+    display: inline;
+}
+.category{
+    float: left;
+    width: 40%;
+    height: 85px;
+    margin-bottom: 20px;
+}
+.bottom{
+    margin-left: 250px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    transition: 0.3s;
+    margin: 20px;
+    border-radius: 10px; /* 5px rounded corners */
+    font-family: 'Goblin One', cursive;
+}
+.card a{ 
+    color: #152036;
+    font-size: 10px;
+}
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+  /* Add some padding inside the card container */
+/*footer styles*/
+.foot{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.foot img{
+    height: 14px;
+}
+
